@@ -321,30 +321,5 @@ Resources:
 - Final project report বা notebook।
 - আপনার analysis কী prove করতে পারে এবং কী পারে না, তার clear statement।
 
-## 3. YouTube search strategy
 
-Preferred channels/search targets:
-
-- Alex The Analyst
-- Luke Barousse
-- freeCodeCamp
-- Leila Gharani
-- Storytelling with Data
-- StatQuest with Josh Starmer
-- Lillian Chiu
-- Microsoft Excel official/help videos
-
-Search pattern:
-
-- `topic beginner 2024`
-- `topic data analysis Alex The Analyst`
-- `topic pandas Luke Barousse`
-- `topic Excel data cleaning Leila Gharani`
-- `topic StatQuest`
-
-Skip pattern:
-
-- খুব পুরোনো Excel UI walkthrough
-- job/certification marketing বেশি, teaching কম এমন video
-- obvious India-based mass tutorial channel, যেগুলো আপনি আগেই skip করতে চান
 
