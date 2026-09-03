@@ -1,0 +1,254 @@
+# Next Lab Preparation Note: Week 1 Lab
+
+Prepared in Bangla from the Week 1 pre-lab material
+
+Assumption: “next lab” means the upcoming Week 1 lab connected to today’s lecture and pre-lab note. This note is preparation and strategy, not a complete worksheet solution.
+
+## 1. Lab-এর উদ্দেশ্য
+
+এই lab-এর উদ্দেশ্য হলো data analysis শুরু করার আগে কীভাবে ভাবতে হয় সেটা practice করা। Excel/Python skill-এর আগে দরকার:
+
+- data আর information আলাদা করা
+- broad topic থেকে specific question বানানো
+- row/record এবং column/variable চিনে নেওয়া
+- source, scope, missing information, bias নিয়ে চিন্তা করা
+- evidence-supported conclusion লেখা
+
+## 2. 30-minute preparation plan
+
+Lab-এর আগে 30 মিনিট এভাবে প্রস্তুতি নিন:
+
+0-5 মিনিট: Vocabulary review  
+Record, variable, value, source, question, evidence লিখে ফেলুন।
+
+5-10 মিনিট: Data vs information practice  
+চারটি raw number নিন, তারপর average/comparison দিয়ে information বানান।
+
+10-15 মিনিট: Question practice  
+একটি broad topic নিন, যেমন cafeteria/library/transportation। সেটিকে measurable question বানান।
+
+15-20 মিনিট: Table design  
+আপনার question-এর জন্য one row কী হবে এবং columns কী হবে লিখুন।
+
+20-25 মিনিট: Quality and bias check  
+missing value, duplicate, inconsistent unit, biased sample, unclear source আছে কি না ভাবুন।
+
+25-30 মিনিট: Evidence and conclusion  
+কোন first summary/chart দরকার এবং কোন conclusion বেশি strong হয়ে যাবে তা লিখুন।
+
+## 3. Lab mindset
+
+Lab-এ তাড়াহুড়া করে chart বা calculation-এ যাবেন না। প্রথমে question, source, row meaning, variables, এবং data quality বুঝুন।
+
+ভালো answer সাধারণত এই structure follow করে:
+
+1. Question কী?
+2. Data কোথা থেকে আসবে?
+3. One record কী represent করবে?
+4. Variables কী কী?
+5. কী missing বা biased হতে পারে?
+6. প্রথম summary/chart কী?
+7. Evidence দিয়ে কী বলা যায়?
+8. কী বলা উচিত নয়?
+
+## 4. Activity guide
+
+Background form:
+
+- নিজের current experience honest ও specific লিখুন।
+- উদ্দেশ্য হলো আপনার starting point বোঝা, perfect answer দেওয়া নয়।
+
+Everyday data example:
+
+- কী record হচ্ছে এবং সেই data দিয়ে কী শেখা যায়, আলাদা করে লিখুন।
+- Example: bus arrival time data -> average delay বা peak delay period জানা যেতে পারে।
+
+Turn a topic into a question:
+
+- Topic narrow করুন।
+- Time/place/group specify করুন।
+- X কী measure করবেন, Y-এর সাথে compare করবেন কি না লিখুন।
+
+Mini-scenario:
+
+- Question আগে পড়ুন।
+- Columns কীভাবে question-এর সাথে connected সেটা দেখুন।
+- Missing information ও limitation লিখুন।
+- Strong conclusion avoid করুন।
+
+## 5. Useful question templates
+
+আপনি এই templates ব্যবহার করতে পারেন:
+
+- How does [measurement] change across [time period]?
+- Is [measurement] different between [group A] and [group B]?
+- Which [category] has the highest/lowest [measurement]?
+- What is the typical [measurement] for [group/place/time]?
+- Are [variable 1] and [variable 2] related in this dataset?
+
+Bangla ভাবনা:
+
+- কোন জিনিসটি মাপব?
+- কোন group/time/place-এর মধ্যে compare করব?
+- data source কী হতে পারে?
+- answer দিলে decision বা understanding কী improve হবে?
+
+## 6. Planning table template
+
+| Planning item | Your answer |
+|---|---|
+| Topic | |
+| Specific question | |
+| One row means | |
+| Needed variables | |
+| Possible source | |
+| Included group/place/time | |
+| Possible missing data | |
+| Possible bias | |
+| First summary/chart | |
+| Careful conclusion | |
+
+## 7. Data quality checklist
+
+Lab-এ dataset বা scenario দেখলে check করুন:
+
+- Missing values আছে?
+- Duplicate records আছে?
+- Date/time format consistent?
+- Number format ঠিক আছে?
+- Unit পরিষ্কার?
+- Category spelling consistent?
+- Suspicious value আছে?
+- 0, blank, placeholder code আলাদা করা হয়েছে?
+- Source পুরো population represent করে?
+- Sample small বা selective?
+
+## 8. Evidence vs interpretation template
+
+Evidence:
+
+- “Average temperature in August is 29°C.”
+- “Lunch count increases from 120 to 420.”
+- “Group A has higher average than Group B.”
+
+Careful interpretation:
+
+- “The data suggests August was warmer than May in this dataset.”
+- “Lunch demand appears highest around 12-1 PM.”
+- “Group A shows a higher average, but more context is needed before explaining why.”
+
+Too strong conclusion:
+
+- “Temperature caused humidity to change.”
+- “All students prefer programming.”
+- “This value is wrong, so I deleted it.”
+
+## 9. Practice example 1: Library
+
+Broad topic: University library
+
+Better question: Weekdays-এ সকাল, দুপুর, বিকেল, রাতের মধ্যে library visits কীভাবে change করে?
+
+One row: one hourly count for one day
+
+Variables:
+
+- date
+- weekday
+- hour
+- visitor_count
+- exam_period yes/no
+
+Possible source: library entry system
+
+Possible bias/missing:
+
+- manual counts inaccurate হতে পারে
+- online library use বাদ পড়ে যেতে পারে
+- exam week ও normal week আলাদা না করলে misleading হতে পারে
+
+First summary:
+
+- average visitors by hour
+- line chart বা bar chart
+
+Careful conclusion:
+
+- “Recorded entry data অনুযায়ী weekday afternoons had higher library traffic.”
+
+## 10. Practice example 2: Cafeteria
+
+Question: কোন সময়ে cafeteria staffing বাড়ানো দরকার?
+
+One row: one time interval count, e.g. every 30 minutes
+
+Variables:
+
+- date
+- time_interval
+- student_count
+- menu_type
+- weekday
+
+First summary:
+
+- average count by time interval
+
+Possible issue:
+
+- special event day normal demand represent নাও করতে পারে
+- count only payment line থেকে এলে people who leave without buying বাদ যায়
+
+## 11. Practice example 3: Weather
+
+Question: কোন month সবচেয়ে warm ছিল এবং rainfall pattern কেমন?
+
+One row: one daily weather observation
+
+Variables:
+
+- date
+- month
+- temperature
+- humidity
+- rainfall
+- pressure
+
+Quality check:
+
+- date missing?
+- rainfall 0 নাকি blank?
+- temperature unit Celsius নাকি Fahrenheit?
+- duplicate date আছে?
+- impossible/suspicious values আছে?
+
+First summary:
+
+- average temperature by month
+- total rainfall by month
+- line chart for temperature trend
+
+## 12. Lab output checklist
+
+Lab শেষ করার সময় এগুলো থাকলে ভালো:
+
+- clear question
+- source statement
+- row/column explanation
+- quality/bias notes
+- first calculation বা chart choice
+- evidence statement
+- limitation statement
+- screenshot/output/code if requested
+
+## 13. Final self-test before lab
+
+নিজে উত্তর দিন:
+
+1. Data আর information কীভাবে আলাদা?
+2. Row/record মানে কী?
+3. Variable আর value আলাদা কেন?
+4. Broad topic থেকে useful question কীভাবে বানাব?
+5. Missing value ও biased sample conclusion-কে কীভাবে দুর্বল করে?
+6. Correlation থেকে causation claim করা যায় না কেন?
+
